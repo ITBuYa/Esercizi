@@ -10,7 +10,7 @@ public class Challenge {
 			numTest = Integer.parseInt(s.next());
 			switch (numTest){
 				case (1) :
-					Challenge2();
+					Challenge1();
 					break;
 				case (2) :
 					Challenge2();
