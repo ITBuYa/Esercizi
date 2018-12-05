@@ -7,18 +7,18 @@ public class Challenge1 {
 		    // Write a Java method to count all vowels in a string. 
 		    // Hint: Use substring() for this challenge question. You can also use charAt().
 		
-		/*String word = "Deltaplano";
-		int Vowels = 0;
-		for (int i = 0; i < word.length(); i++) {
-		    if (word.substring(i, i + 1).equals("a") 
-		     || word.substring(i, i + 1).equals("e")
-		     || word.substring(i, i + 1).equals("i") 
-		     || word.substring(i, i + 1).equals("o")
-		     || word.substring(i, i + 1).equals("u")) {
-		        Vowels++;
-		    }
-		}
-		System.out.println("The number of vowels in " + word + " is " + Vowels);}
+		// String word = "Deltaplano";
+		// int Vowels = 0;
+		// for (int i = 0; i < word.length(); i++) {
+		//     if (word.substring(i, i + 1).equals("a") 
+		//      || word.substring(i, i + 1).equals("e")
+		//      || word.substring(i, i + 1).equals("i") 
+		//      || word.substring(i, i + 1).equals("o")
+		//      || word.substring(i, i + 1).equals("u")) {
+		//         Vowels++;
+		//     }
+		// }
+		// System.out.println("The number of vowels in " + word + " is " + Vowels);}
 
 		//**********************************************************************************	
         //                                 Challenge 2
@@ -30,14 +30,14 @@ public class Challenge1 {
         // Example: "This is a big world" has 4 words
 
 		
-		String parola = "Sono nato in italia";
-		int conta = 1;
-		for(int i = 0; i<parola.length(); i++) {
-			if(parola.substring(i, i+1).equals(" ")) {
-				conta++;
-		System.out.println("The number of words in '" + parola + "' is " + conta);
-			}
-		}
+		// String parola = "Sono nato in italia";
+		// int conta = 1;
+		// for(int i = 0; i<parola.length(); i++) {
+		// 	if(parola.substring(i, i+1).equals(" ")) {
+		// 		conta++;
+		// System.out.println("The number of words in '" + parola + "' is " + conta);
+		// 	}
+		// }
 		
 	    // ********************************************************************************
 		//                                 Challenge3
@@ -96,6 +96,7 @@ public class Challenge1 {
 				digits++; 
 				
 			}
+		}
 			
 			if(digits < 2) {
 				
@@ -129,20 +130,20 @@ public class Challenge1 {
         //  If n is even and greater than 20 print "yellow"
 
 
-		int n = 200;
+		// int n = 200;
 		
-		if(n % 2 == 1) {
-			System.out.println("Red");
-		}
-		else if (n>=2 && n<=5) {
-		    System.out.println("Blue");
-		}
-		else if (n>=6 && n<=20) {
-		    System.out.println("Blue");
-		}
-		else {
-			System.out.println("Yellow");
-		}
+		// if(n % 2 == 1) {
+		// 	System.out.println("Red");
+		// }
+		// else if (n>=2 && n<=5) {
+		//     System.out.println("Blue");
+		// }
+		// else if (n>=6 && n<=20) {
+		//     System.out.println("Blue");
+		// }
+		// else {
+		// 	System.out.println("Yellow");
+		// }
 		
 		// ***********************************************************************************
 		//                                   Challenge 5
@@ -158,21 +159,18 @@ public class Challenge1 {
 
         //  3 is printed out to the console
 
-		int[] array1 = {3, 33, 44, 66, 77, 99};
-		int[] array2 = {33, 45, 54, 64, 99, 8};
+		// int[] array1 = {3, 33, 44, 66, 77, 99};
+		// int[] array2 = {33, 45, 54, 64, 99, 8};
 		
-		for(int x = 0; x<array1.length; x++) {
-			for(int y = 0; y<array2.length; y++) {
-				if(array1[x] == array2[y]) {
-					System.out.println(array2[y]);
-				}
-			}
+		// for(int x = 0; x<array1.length; x++) {
+		// 	for(int y = 0; y<array2.length; y++) {
+		// 		if(array1[x] == array2[y]) {
+		// 			System.out.println(array2[y]);
+		// 		}
+		// 	}
 			
-		}*/
-		
-		
-		}
-		
+		// }				
+			
 }
 		
 		
